@@ -21,7 +21,6 @@ namespace Task_4
                 {
                     result += i;
                 }
-                continue;
             }
 
             Console.WriteLine("The sum of all even numbers is " + result);

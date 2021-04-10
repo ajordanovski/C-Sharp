@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1", "Task 1\Task 1.csproj", "{8EB5E4D8-C805-4F9F-B277-940604119F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 1", "Task 1\Task 1.csproj", "{8EB5E4D8-C805-4F9F-B277-940604119F65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2", "Task 2\Task 2.csproj", "{6A209F1B-9417-470D-B1F1-5456FF11A94A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 2", "Task 2\Task 2.csproj", "{6A209F1B-9417-470D-B1F1-5456FF11A94A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Task 3\Task 3.csproj", "{FF23C679-A5BF-4045-A2C6-4EDC4EB1D18F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 3", "Task 3\Task 3.csproj", "{FF23C679-A5BF-4045-A2C6-4EDC4EB1D18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4", "Task 4\Task 4.csproj", "{5713481F-0FE1-4480-9A93-035ABF4EF6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 4", "Task 4\Task 4.csproj", "{5713481F-0FE1-4480-9A93-035ABF4EF6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5", "Task 5\Task 5.csproj", "{FAF37BDC-7B14-4B37-BD0D-4FAD43B39619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 5", "Task 5\Task 5.csproj", "{FAF37BDC-7B14-4B37-BD0D-4FAD43B39619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6", "Task 6\Task 6.csproj", "{1BDB2CA6-1BBC-4AF7-BFA9-DF05936A02AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 6", "Task 6\Task 6.csproj", "{1BDB2CA6-1BBC-4AF7-BFA9-DF05936A02AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7", "Task 7\Task 7.csproj", "{CFF4539E-D86E-4B12-A0A2-C6631988873C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1BDB2CA6-1BBC-4AF7-BFA9-DF05936A02AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDB2CA6-1BBC-4AF7-BFA9-DF05936A02AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDB2CA6-1BBC-4AF7-BFA9-DF05936A02AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF4539E-D86E-4B12-A0A2-C6631988873C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF4539E-D86E-4B12-A0A2-C6631988873C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF4539E-D86E-4B12-A0A2-C6631988873C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF4539E-D86E-4B12-A0A2-C6631988873C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

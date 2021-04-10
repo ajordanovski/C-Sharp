@@ -12,7 +12,7 @@ namespace Task_2
             Console.WriteLine("Input number bigger than 5");
             int inputNumber = int.Parse(Console.ReadLine());
 
-            if (inputNumber > 2)
+            if (inputNumber > 5)
             {
                 for (int i = 1; i <= inputNumber; i++)
                 {

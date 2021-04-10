@@ -20,7 +20,6 @@ namespace Task_6
                 {
                     result += i;
                 }
-                continue;
             }
 
             Console.WriteLine("The sum of all numbers that divide 5 is " + result);

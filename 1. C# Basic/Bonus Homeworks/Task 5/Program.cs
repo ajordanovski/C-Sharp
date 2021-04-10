@@ -20,7 +20,6 @@ namespace Task_5
                 {
                     result += i;
                 }
-                continue;
             }
 
             Console.WriteLine("The sum of all odd numbers is " + result);
