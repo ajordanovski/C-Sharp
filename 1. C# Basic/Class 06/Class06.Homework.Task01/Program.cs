@@ -135,7 +135,7 @@ namespace Class06.Homework.Task01
                 {
                     break;
                 }
-
+                
                 Console.Clear();
                 continue;
             }
