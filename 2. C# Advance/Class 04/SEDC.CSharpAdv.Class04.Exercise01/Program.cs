@@ -1,4 +1,5 @@
 ﻿using SEDC.CSharpAdv.Class04.Exercise01.Entities;
+using SEDC.CSharpAdv.Class04.Exercise01.GenericClass;
 using System;
 
 namespace SEDC.CSharpAdv.Class04.Exercise01
@@ -7,9 +8,38 @@ namespace SEDC.CSharpAdv.Class04.Exercise01
     {
         static void Main(string[] args)
         {
+            PetStore<Dog> DogStore = new PetStore<Dog>();
+            PetStore<Cat> CatStore = new PetStore<Cat>();
+            PetStore<Fish> FishStore = new PetStore<Fish>();
 
+            Dog dog1 = new Dog("Dzeki", 2, "bacon");
+            Dog dog2 = new Dog("Shpic", 3, "bone");
+            Cat cat1 = new Cat("Tom", 1, 9);
+            Cat cat2 = new Cat("Mico", 2, 9);
+            Fish fish1 = new Fish("Nemo", 1, "golden", 2);
+            Fish fish2 = new Fish("Sharki", 4, "gray", 10);
 
+            DogStore.Pets.Add(dog1);
+            DogStore.Pets.Add(dog2);
+            CatStore.Pets.Add(cat1);
+            CatStore.Pets.Add(cat2);
+            FishStore.Pets.Add(fish1);
+            FishStore.Pets.Add(fish2);
 
+            DogStore.printsPets(DogStore.Pets);
+            CatStore.printsPets(CatStore.Pets);
+            FishStore.printsPets(FishStore.Pets);
+
+            Console.WriteLine("===============================");
+
+            Console.WriteLine("Say the name of the dog you want to buy from the dog shop: ");
+            DogStore.BuyPet(Console.ReadLine());
+            Console.WriteLine("Say the name of the cat you want to buy from the cat shop: ");
+            CatStore.BuyPet(Console.ReadLine());
+
+            DogStore.printsPets(DogStore.Pets);
+            CatStore.printsPets(CatStore.Pets);
+            FishStore.printsPets(FishStore.Pets);
 
             Console.ReadLine();
         }
